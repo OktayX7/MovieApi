@@ -1,0 +1,64 @@
+$font-family-sans-serif: "Roboto", sans-serif;
+
+$white: #ffffff;
+$black: #000000;
+$spacer: 1rem;
+
+$body-bg: $black;
+$body-color: $white;
+$link-color: $white;
+$link-decoration: none;
+
+:export {
+  white: $white;
+  black: $black;
+}
+
+$position-values: (
+  -4: -4%,
+  0: 0,
+  3: 3%,
+  5: 5%,
+  10: 10%,
+  15: 15%,
+  20: 20%,
+  25: 25%,
+  30: 30%,
+  35: 35%,
+  40: 40%,
+  45: 45%,
+  50: 50%,
+  55: 55%,
+  60: 60%,
+  65: 65%,
+  70: 70%,
+  75: 75%,
+  80: 80%,
+  85: 85%,
+  90: 90%,
+  95: 95%,
+  100: 100%
+);
+
+$spacers: (
+  -3: $spacer * -3,
+  -2: $spacer * -2,
+  -1: $spacer * -1,
+  0: 0,
+  1: $spacer * 0.3125,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4.5,
+  7: $spacer * 6,
+  8: $spacer * 7.5,
+  9: $spacer * 9,
+  10: $spacer * 10.5,
+  11: $spacer * 12,
+  12: $spacer * 13.5,
+  13: $spacer * 15,
+  14: $spacer * 16.5,
+  15: $spacer * 18,
+  16: $spacer * 19.5
+);
